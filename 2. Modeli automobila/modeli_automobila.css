@@ -1,0 +1,32 @@
+.container {
+    margin: auto;
+    padding: 4%;
+}
+
+.wrap {
+    margin: auto;
+    text-align: center;
+}
+
+.car-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 200px;
+}
+
+.car-wrap-mrg {
+    margin-top: 80px;
+}
+
+.car-image {
+    flex: 3;
+}
+
+.car-description {
+    flex: 7;
+    padding: 10px;
+}
+
+.car-description p {
+    margin-top: 2%;
+}

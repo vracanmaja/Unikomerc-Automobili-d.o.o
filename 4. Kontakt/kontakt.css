@@ -1,0 +1,58 @@
+.container {
+    margin: auto;
+    padding: 4%;
+}
+.wrap {
+    margin: auto;
+    text-align: center;
+}
+
+.lokacija {
+    padding-top: 17px;
+    background-color: lightgray;
+    height: 100px;
+}
+
+.lokacija p {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.karta {
+    margin-top: 30px;
+}
+
+.savjetnici-header {
+    margin-top: 15px;
+    padding: 2%;
+    background-color: lightgray;
+    font-size: 20px;
+}
+
+.popis-savjetnika {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.savjetnik-a, .savjetnik-b {
+    width: 200px;  
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.img-block img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.contact-block {
+    margin-top: 20px;
+    min-height: 100px;
+}
+
+.radno {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
